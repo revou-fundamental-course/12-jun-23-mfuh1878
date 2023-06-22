@@ -1,0 +1,75 @@
+header{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 150px;
+    font-family: monospace;
+    font-style: italic;
+}
+label{
+    margin-bottom: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+#inputancel{
+    outline: none;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: solid rgb(146, 140, 140);
+
+}
+#inputanfah{
+    outline: none;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: solid rgb(146, 140, 140);
+
+}
+#inputankalkulasi{
+    outline: none;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: solid rgb(146, 140, 140);
+
+}
+#inputancel:focus {
+    border: solid black;
+}
+#inputanfah:focus {
+    border: solid black;
+}
+#inputankalkulasi:focus {
+    border: solid black;
+}
+
+
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+.inputbuttonsection {
+    display: flex;
+}
+
+button {
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(86, 86, 228);
+}
+button:active {
+    transform: translateY(1px);
+}
